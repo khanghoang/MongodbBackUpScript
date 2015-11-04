@@ -28,7 +28,7 @@ function S3Storage (opts) {
 }
 
 function getFilename() {
-  return new Date();
+  return new Date() + ".zip";
 }
 
 S3Storage.prototype._handleFile = function (file, cb) {
