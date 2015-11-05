@@ -11,6 +11,8 @@ Then enter something like this:
 #Notes:
 ### To prevent the output of the command 
 Adding ``` >/dev/null 2>&1``` to prevent the output of the command [more info](http://askubuntu.com/questions/222512/cron-info-no-mta-installed-discarding-output-error-in-the-syslog)
+### Add ```zip``` package
+For Ubuntu ```sudo apt-get install zip```
 ### Always run ```node``` with full path
 Use ```which node``` to get the full path of node (ex ```/opt/node/bin/node```)
 ### CronTab pattern 
